@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="ce9c2e7b4a0d1fa3824135b7d323b8001ac3d520" datatype="html">
+        <source>CHECK-IN</source>
+        <target>CHECK IN</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">CHECK-IN</note>
+        <note priority="1" from="meaning">appHeadding</note>
+      </trans-unit>
+      <trans-unit id="d828c4bb37e2787a2d8dd998dd015801ce73924f" datatype="html">
+        <source>RETRIEVE YOUR BOOKING</source>
+        <target>ONTVANG UW RESERVERING</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description"> retreive booking</note>
+        <note priority="1" from="meaning">sub header </note>
+      </trans-unit>
+      <trans-unit id="8ebbc4d72d525b6b09eb2faa2dcac6a8cb84d5c9" datatype="html">
+        <source>You can find your booking by filling out your family name and the booking code in your booking confirmation</source>
+        <target>U kunt uw boeking vinden door uw achternaam en de boekingscode in uw boekingsbevestiging in te vullen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description"> details</note>
+        <note priority="1" from="meaning">description </note>
+      </trans-unit>
+      <trans-unit id="a6cbfe104caad72e9bfb10aeb64e821f3e631812" datatype="html">
+        <source>Retrieve booking</source>
+        <target>Boek ophalen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <note priority="1" from="description"> submit request</note>
+        <note priority="1" from="meaning">retrive details </note>
+      </trans-unit>
+      <trans-unit id="4abaf4eefa485678c4ae6a04069bb6624442ab62" datatype="html">
+        <source>Offers only for you</source>
+        <target>Aanbiedingen alleen voor jou</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <note priority="1" from="description"> your offers</note>
+        <note priority="1" from="meaning">offers </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

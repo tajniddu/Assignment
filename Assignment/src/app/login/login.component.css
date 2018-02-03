@@ -1,0 +1,84 @@
+.containerForm {
+  display: flex;
+  flex-direction: column;
+}
+.containerForm > * , .width-100{
+  width: 100%;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.head {
+    background-image: url("../../head-img.png");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 74px;
+    line-height: 74px;
+    vertical-align: middle;
+    color: #fff;
+}
+.book{
+    background: url("../../book.png") no-repeat;
+ }
+.family{
+    background: url("../../family.png") no-repeat;
+  }
+.icon-form{
+    width: 21px;
+    height: 22px;
+    display:inline-block;
+    background-size: 22px;
+    margin-left: 2px;
+    padding-right: 6px;
+  }
+h1 {
+    font-size: 36px;
+    color: rgb(22,73,139);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.check-in{
+    display: block;
+    text-align: center;
+    line-height: 74px;
+  }
+.language{
+    position: absolute;
+    top: 35px;
+    right: 40px;
+    line-height: 0px;
+  }
+.ml-5{
+    margin-left:5px;
+  }
+.mr-5{
+    margin-right:5px;
+  }
+p {
+    color: rgb(35,58,78);
+  }
+.text-center {
+    text-align: center;
+}
+.lh-35{
+    line-height: 35px;
+}
+.ft-8{
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(22,73,139);
+}
+  hr{
+  width: 20px;
+  border: 2px solid black;
+}
+.errorBooking{
+  color:red;
+  font-size:32px;
+  text-align: center;
+}

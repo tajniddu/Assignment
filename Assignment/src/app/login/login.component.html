@@ -1,0 +1,29 @@
+<div class="container">
+	<div class="head text-center">
+    <div class="language">
+      <span class="mr-5">Eng</span><mat-slide-toggle [checked]="langSel"></mat-slide-toggle><span class="ml-5">Dut</span>
+    </div>
+    <label class="check-in" i18n="appHeadding|CHECK-IN">CHECK-IN</label> 
+  </div>
+  
+  <h1 class="text-center" i18n="sub header | retreive booking">RETRIEVE YOUR BOOKING</h1>
+  <hr>
+  <p class="lh-35" i18n="description | details">You can find your booking by filling out your family name and the booking code in your booking confirmation</p>
+  <p class="errorBooking" *ngIf="errorMsg">{{errorMsg}}</p>
+  <form class="width-100"  [formGroup]="flightCheckInForm" #formName="ngForm">
+  <mat-form-field class="width-100">
+    <input matInput placeholder="{{validateBookingCode()}}" [formControl]="bookingCode" required>
+    <span matPrefix class="book icon-form"></span>
+  </mat-form-field>
+
+  <mat-form-field class="width-100">
+    <input matInput placeholder="{{validateFamilyName()}}" [formControl]="familyName" required>
+    <span matPrefix class="family icon-form"></span>
+  </mat-form-field>
+  
+
+  <button class="width-100" mat-raised-button color="warn" (click)="submitted(formName)"  i18n="retrive details | submit request">Retrieve booking</button>
+  </form>
+
+ <p class="ft-8"i18n="offers | your offers">Offers only for you</p>
+</div>
